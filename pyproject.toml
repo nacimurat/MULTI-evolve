@@ -20,6 +20,5 @@ dependencies = [
     "tqdm",
   "python-Levenshtein",
   "torch",
-    "ankh"
-
+ 'ankh; python_version >= "3.12" and python_version < "4.0"'
 ]
