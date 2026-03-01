@@ -1,14 +1,15 @@
 [tool.poetry]
 package-mode = false
+
 [build-system]
-requires = ["setuptools>=64.0"]
-build-backend = "setuptools.build_meta" 
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
 [project]
-requires-python = ">=3.10,<3.12"
 name = "multi-evolve"
 version = "0.1.0"
 description = "Streamlit app"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.12"
 dependencies = [
   "streamlit",
   "pandas",
