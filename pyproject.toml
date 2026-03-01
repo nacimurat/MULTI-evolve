@@ -17,6 +17,7 @@ dependencies = [
   "biopython",
   "wandb",
   "scikit-learn",
+    "tqdm",
   "python-Levenshtein",
   "torch"
 ]
