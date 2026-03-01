@@ -19,5 +19,7 @@ dependencies = [
   "scikit-learn",
     "tqdm",
   "python-Levenshtein",
-  "torch"
+  "torch",
+    "ankh"
+
 ]
