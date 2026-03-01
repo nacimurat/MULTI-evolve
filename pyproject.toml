@@ -9,7 +9,7 @@ build-backend = "poetry.core.masonry.api"
 name = "multi-evolve"
 version = "0.1.0"
 description = "Streamlit app"
-requires-python = ">=3.10"
+requires-python = ">=3.11,<3.12"
 dependencies = [
   "streamlit",
   "pandas",
@@ -17,8 +17,8 @@ dependencies = [
   "biopython",
   "wandb",
   "scikit-learn",
-    "tqdm",
+  "tqdm",
   "python-Levenshtein",
   "torch",
- 'ankh; python_version >= "3.12" and python_version < "4.0"'
+  "ankh"
 ]
