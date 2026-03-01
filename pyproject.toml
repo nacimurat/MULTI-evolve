@@ -21,5 +21,13 @@ dependencies = [
   "python-Levenshtein",
   "torch",
   "ankh",
-  "matplotlib"
+  "matplotlib",
+  "seaborn",
+  "scipy",
+  "joblib",
+  "pyyaml",
+  "transformers",
+  "einops",
+  "datasets",
+  "sentencepiece"
 ]
