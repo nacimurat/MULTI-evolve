@@ -12,5 +12,6 @@ dependencies = [
   "streamlit",
   "pandas",
   "numpy",
-  "biopython"
+  "biopython",
+  "wandb"
 ]
