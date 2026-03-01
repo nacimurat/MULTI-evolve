@@ -16,5 +16,6 @@ dependencies = [
   "numpy",
   "biopython",
   "wandb",
-  "scikit-learn"
+  "scikit-learn",
+  "python-Levenshtein"
 ]
